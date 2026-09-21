@@ -1,153 +1,131 @@
-/*
-  Classic mathematics academic homepage.
-
-  Visual direction:
-  - plain white background
-  - compact typography
-  - traditional blue links
-  - restrained headings
-  - simple horizontal rules
-  - no cards / gradients / dark mode
-*/
-
-html {
-  font-size: 16px;
-}
+/* ---------- Base ---------- */
 
 body {
   margin: 0;
   background: #ffffff;
-  color: #000000;
+  color: #222;
   font-family: Arial, Helvetica, sans-serif;
-  line-height: 1.45;
-  overflow-wrap: break-word;
+  font-size: 16px;
+  line-height: 1.7;
 }
+
+
+/* ---------- Page ---------- */
 
 .page {
-  width: min(900px, calc(100% - 48px));
-  margin: 32px auto 60px;
+  max-width: 760px;
+  margin: 65px auto;
+  padding: 0 28px 50px;
 }
 
-.header h1 {
-  margin: 0 0 7px;
-  font-family: Georgia, "Times New Roman", serif;
-  font-size: 31px;
-  font-weight: 700;
-  line-height: 1.15;
-}
 
-.chinese-name {
-  margin: -1px 0 13px;
-  font-family: Georgia, "Songti SC", "STSong", serif;
-  font-size: 21px;
-  font-weight: 600;
-}
+/* ---------- Header ---------- */
 
-address {
-  margin-top: 12px;
-  font-style: normal;
-  line-height: 1.38;
+.header h2 {
+  margin: 0 0 8px;
+  font-size: 26px;
+  font-weight: 500;
+  letter-spacing: 0.1px;
 }
 
 .contact {
-  margin: 12px 0 0;
+  margin: 0;
+  font-size: 14px;
+  color: #666;
 }
 
-hr {
-  border: 0;
-  border-top: 1px solid #8c8c8c;
-  margin: 22px 0;
-}
+
+/* ---------- Sections ---------- */
 
 section {
-  margin: 0 0 25px;
+  margin: 30px 0;
 }
 
-h2 {
-  margin: 23px 0 10px;
-  font-family: Georgia, "Times New Roman", serif;
-  font-size: 21px;
-  line-height: 1.2;
-}
+section h3 {
+  margin: 0 0 14px;
 
-h3 {
-  margin: 17px 0 7px;
-  font-family: Georgia, "Times New Roman", serif;
   font-size: 17px;
-  line-height: 1.2;
+  font-weight: 600;
+
+  letter-spacing: 0.3px;
+  color: #333;
 }
+
+
+/* ---------- Text ---------- */
 
 p {
-  margin: 9px 0;
+  margin: 0 0 15px;
 }
+
+
+/* ---------- Links ---------- */
 
 a {
-  color: #0000cc;
-  text-decoration: underline;
-}
-
-a:visited {
-  color: #551a8b;
+  color: #355f8a;
+  text-decoration: none;
 }
 
 a:hover {
-  color: #cc0000;
+  text-decoration: underline;
 }
 
-ol,
-ul {
-  margin: 7px 0 0;
-  padding-left: 31px;
+
+/* ---------- Horizontal line ---------- */
+
+hr {
+  border: none;
+  border-top: 1px solid #e5e5e5;
+  margin: 28px 0;
 }
 
-li {
-  margin: 7px 0;
-  padding-left: 3px;
+
+/* ---------- Publications ---------- */
+
+.publications {
+  margin: 0;
+  padding-left: 22px;
 }
 
 .publications li {
-  margin-bottom: 10px;
+  margin-bottom: 20px;
+  padding-left: 4px;
 }
 
-.note {
-  color: #222222;
-}
-
-footer {
-  padding-bottom: 10px;
-  font-size: 14px;
+.publications em {
   font-style: italic;
 }
 
-/* A little more breathing room on large screens,
-   while keeping the old-school academic-page feel. */
-@media (min-width: 1100px) {
-  .page {
-    width: 920px;
-  }
+.publications small {
+  display: block;
+  margin-top: 2px;
+  color: #777;
+  font-size: 13px;
 }
 
-/* Mobile: retain the same visual language, just reduce margins. */
+
+/* ---------- Footer ---------- */
+
+footer {
+  margin-top: 28px;
+  font-size: 13px;
+  color: #888;
+}
+
+
+/* ---------- Mobile ---------- */
+
 @media (max-width: 600px) {
-  html {
-    font-size: 15px;
-  }
-
   .page {
-    width: calc(100% - 28px);
-    margin-top: 20px;
+    margin: 35px auto;
+    padding: 0 20px 40px;
   }
 
-  .header h1 {
-    font-size: 27px;
+  .header h2 {
+    font-size: 23px;
   }
 
-  h2 {
-    font-size: 20px;
-  }
-
-  ol,
-  ul {
-    padding-left: 26px;
+  section h3 {
+    font-size: 16px;
   }
 }
