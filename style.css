@@ -62,26 +62,30 @@ body {
   line-height: 1.25;
 }
 
+.name {
+  margin: 0 0 14px;
+  line-height: 1.2;
+  font-weight: 400;
+}
+
 .english-name {
   font-family: Baskerville, "Palatino Linotype", Palatino, serif;
-  font-size: 30px;
+  font-size: 32px;
   font-weight: 400;
-  letter-spacing: 0.2px;
+  letter-spacing: 0.4px;
 }
 
 .chinese-name {
-  font-family: "PingFang SC", "Microsoft YaHei", sans-serif;
-  font-size: 24px;
+  font-family: "Songti SC", "STSong", SimSun, serif;
+  font-size: 26px;
   font-weight: 300;
-  margin-left: 8px;
-  color: #4f514c;
 }
 
 .contact {
   margin: 0;
-
-  font-size: 14px;
-  color: var(--muted);
+  font-size: 15px;
+  font-weight: 400;
+  color: #777;
 }
 
 
