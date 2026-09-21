@@ -101,6 +101,8 @@ hr {
 
 /* ---------- Publications ---------- */
 
+/* ---------- Publications ---------- */
+
 .publications {
   margin: 0;
   padding-left: 21px;
@@ -109,6 +111,7 @@ hr {
 .publications li {
   margin-bottom: 18px;
   padding-left: 3px;
+  line-height: 1.4;
 }
 
 .publications em {
