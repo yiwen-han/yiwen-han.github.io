@@ -57,22 +57,21 @@ body {
 }
 
 .header h2 {
-  margin: 0 0 9px;
+  margin: 0 0 10px;
 
-  font-size: 28px;
-  font-weight: 500;
+  font-family: "Palatino Linotype", Palatino, "Songti SC", serif;
+  font-size: 29px;
+  font-weight: 400;
 
-  line-height: 1.3;
   letter-spacing: 0.2px;
-
-  color: #292a27;
+  color: #2d302a;
 }
 
 .contact {
   margin: 0;
-
-  font-size: 14px;
-  color: var(--muted);
+  font-size: 15px;
+  font-weight: 400;
+  color: #777;
 }
 
 
