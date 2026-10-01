@@ -67,17 +67,6 @@ body {
   color: var(--link);
 }
 
-.butterfly {
-  display: inline-block;
-  margin-left: 5px;
-
-  font-size: 12px;
-  font-weight: 400;
-  vertical-align: 2px;
-
-  opacity: 0.72;
-}
-
 address {
   margin-top: 11px;
 
@@ -209,6 +198,17 @@ li {
   color: var(--muted);
 }
 
+/* ---------- Others ---------- */
+
+.butterfly {
+  display: inline-block;
+  margin-left: 4px;
+
+  font-size: 13px;
+  vertical-align: 1px;
+
+  opacity: 0.75;
+}
 
 /* ---------- Footer ---------- */
 
