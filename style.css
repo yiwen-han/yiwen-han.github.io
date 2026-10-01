@@ -56,7 +56,6 @@ body {
 
 /* ---------- Header ---------- */
 
-.header h1,
 .header h2 {
   margin: 0 0 7px;
 
@@ -64,15 +63,19 @@ body {
   font-size: 22px;
   font-weight: 700;
   line-height: 1.15;
+
+  color: var(--link);
 }
 
-.chinese-name {
-  margin: -1px 0 13px;
+.butterfly {
+  display: inline-block;
+  margin-left: 5px;
 
-  font-family: Georgia, "Songti SC", "STSong", serif;
-  font-size: 14px;
-  font-weight: 600;
-  line-height: 1.25;
+  font-size: 12px;
+  font-weight: 400;
+  vertical-align: 2px;
+
+  opacity: 0.72;
 }
 
 address {
