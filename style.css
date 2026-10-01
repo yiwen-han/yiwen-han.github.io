@@ -63,8 +63,16 @@ body {
   font-size: 22px;
   font-weight: 700;
   line-height: 1.15;
+}
 
-  color: var(--link);
+.butterfly {
+  display: inline-block;
+  margin-left: 5px;
+  font-size: 12px;
+  font-weight: 400;
+  vertical-align: 2px;
+
+  opacity: 0.72;
 }
 
 address {
