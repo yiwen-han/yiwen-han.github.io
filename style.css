@@ -49,7 +49,7 @@ body {
 /* ---------- Page ---------- */
 
 .page {
-  width: min(960px, calc(100% - 48px));
+  width: min(970px, calc(100% - 48px));
   margin: 34px auto 60px;
 }
 
